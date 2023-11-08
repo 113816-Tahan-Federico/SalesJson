@@ -1,37 +1,27 @@
 {
-  "order": {
-    "status": 200,
-    "ok": true,
-    "error": null,
-    "data": [
-      {
-        "id_sale_order": 1,
-        "id_seller": 1,
-        "id_client": 101,
-        "date_of_issue": [
-          2023, 10, 23, 10, 0
-        ],
-        "date_of_expiration": [
-          2023, 10, 30, 12, 0
-        ],
-        "state_sale_order": "PENDING_DELIVERY",
-        "detail_sales_order": [
-          {
-            "id_sale_order_details": 1,
-            "id_product": 201,
-            "quantity": 5,
-            "price": 25.99,
-            "state_sale_order_detail": "RESERVED"
-          },
-          {
-            "id_sale_order_details": 2,
-            "id_product": 202,
-            "quantity": 3,
-            "price": 12.49,
-            "state_sale_order_detail": "DELIVERED"
-          }
-        ]
-      }
-    ]
-  }
+  "order": [
+    {
+      "id_sale_order": 0,
+      "id_seller": 0,
+      "first_name_seller": "string",
+      "last_name_seller": "string",
+      "id_client": 0,
+      "first_name_client": "string",
+      "last_name_client": "string",
+      "company_name": "string",
+      "date_of_issue": "2023-11-08T00:19:28.013Z",
+      "date_of_expiration": "2023-11-08T00:19:28.013Z",
+      "state_sale_order": "CREATE",
+      "detail_sales_order": [
+        {
+          "name": "string",
+          "id_sale_order_details": 0,
+          "id_product": 0,
+          "quantity": 0,
+          "price": 0,
+          "state_sale_order_detail": "RESERVED"
+        }
+      ]
+    }
+  ]
 }
