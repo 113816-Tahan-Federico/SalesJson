@@ -1,37 +1,37 @@
 {
-  "order":{
-  "status": 200,
-  "ok": true,
-  "error": null,
-  "data": [
-    {
-      "id_sale_order": 1,
-      "id_seller": 1,
-      "id_client": 101,
-      "date_of_issue": [
-        2023, 10, 23, 10, 0
-      ],
-      "date_of_expiration": [
-        2023, 10, 30, 12, 0
-      ],
-      "state_sale_order": "PENDING_DELIVERY",
-      "detail_sales_order": [
-        {
-          "id_sale_order_details": 1,
-          "id_product": 201,
-          "quantity": 5,
-          "price": 25.99,
-          "state_sale_order_detail": "RESERVED"
-        },
-        {
-          "id_sale_order_details": 2,
-          "id_product": 202,
-          "quantity": 3,
-          "price": 12.49,
-          "state_sale_order_detail": "DELIVERED"
-        }
-      ]
-    }
-  ]
-    }
+  "order": {
+    "status": 200,
+    "ok": true,
+    "error": null,
+    "data": [
+      {
+        "id_sale_order": 1,
+        "id_seller": 1,
+        "id_client": 101,
+        "date_of_issue": [
+          2023, 10, 23, 10, 0
+        ],
+        "date_of_expiration": [
+          2023, 10, 30, 12, 0
+        ],
+        "state_sale_order": "PENDING_DELIVERY",
+        "detail_sales_order": [
+          {
+            "id_sale_order_details": 1,
+            "id_product": 201,
+            "quantity": 5,
+            "price": 25.99,
+            "state_sale_order_detail": "RESERVED"
+          },
+          {
+            "id_sale_order_details": 2,
+            "id_product": 202,
+            "quantity": 3,
+            "price": 12.49,
+            "state_sale_order_detail": "DELIVERED"
+          }
+        ]
+      }
+    ]
+  }
 }
