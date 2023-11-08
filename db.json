@@ -1,6 +1,4 @@
 {
-  "order":[
-    {
   "status": 200,
   "ok": true,
   "error": null,
@@ -15,7 +13,7 @@
       "date_of_expiration": [
         2023, 10, 30, 12, 0
       ],
-      "state_sale_order": "PENDING_DELIVEY",
+      "state_sale_order": "PENDING_DELIVERY",
       "detail_sales_order": [
         {
           "id_sale_order_details": 1,
