@@ -20,6 +20,30 @@
           "quantity": 20,
           "price": 0,
           "state_sale_order_detail": "RESERVED"
+        },
+        {
+          "name": "string",
+          "id_sale_order_details": 0,
+          "id_product": 5,
+          "quantity": 20,
+          "price": 0,
+          "state_sale_order_detail": "RESERVED"
+        },
+        {
+          "name": "string",
+          "id_sale_order_details": 0,
+          "id_product": 1,
+          "quantity": 11,
+          "price": 0,
+          "state_sale_order_detail": "RESERVED"
+        },
+         {
+          "name": "string",
+          "id_sale_order_details": 0,
+          "id_product": 2,
+          "quantity": 30,
+          "price": 0,
+          "state_sale_order_detail": "RESERVED"
         }
       ]
     }
